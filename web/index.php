@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . "/../src/Repository/GameRepository.php";
+require __DIR__ . "/../src/Entity/Repository/GameRepository.php";
 
 $repo = new GameRepository();
 $games = $repo->findByUserId(1);
