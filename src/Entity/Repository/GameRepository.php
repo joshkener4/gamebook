@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . "/../Entity/Game.php";
-require __DIR__ . "/../Entity/Rating.php";
+require __DIR__ . "/../Game.php";
+require __DIR__ . "/../Rating.php";
 
 class GameRepository {
    protected $pdo;
